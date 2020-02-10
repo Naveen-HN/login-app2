@@ -1,7 +1,16 @@
 import React, { Component } from "react";
-import Register from './Register';
+import Register from "./Register";
+import { Link } from "react-router-dom";
+import "../styles.css";
 
 function Header() {
+  const LinkStyle = {
+    color: "#fff",
+    textDecoration: "none",
+    textTransform: "uppercase",
+    fontWeight: "bold"
+  };
+
   return (
     <header>
       <div className="container">
@@ -13,10 +22,19 @@ function Header() {
         <nav>
           <ul>
             <li>
-              <a href='<Register/>'</li>>REGISTER</a>
+              <Link style={LinkStyle} to="/">
+                Home
+              </Link>
             </li>
             <li>
-              <a href="#">LOGIN</a>
+              <Link to="/register" style={LinkStyle}>
+                REGISTER
+              </Link>
+            </li>
+            <li>
+              <Link to="/Login" style={LinkStyle}>
+                LOGIN
+              </Link>
             </li>
           </ul>
         </nav>
