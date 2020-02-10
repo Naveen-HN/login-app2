@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Register from "./Register";
+import React from "react";
+//import Register from "./Register";
 import { Link } from "react-router-dom";
 import "../styles.css";
 
@@ -16,29 +16,29 @@ function Header() {
       <div className="container">
         <div id="branding">
           <h1>
-            <span>W</span>elcome
-          </h1>
-        </div>
+            <span> W </span>elcome{" "}
+          </h1>{" "}
+        </div>{" "}
         <nav>
           <ul>
             <li>
               <Link style={LinkStyle} to="/">
-                Home
-              </Link>
-            </li>
+                Home{" "}
+              </Link>{" "}
+            </li>{" "}
             <li>
               <Link to="/register" style={LinkStyle}>
-                REGISTER
-              </Link>
-            </li>
+                REGISTER{" "}
+              </Link>{" "}
+            </li>{" "}
             <li>
               <Link to="/Login" style={LinkStyle}>
-                LOGIN
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
+                LOGIN{" "}
+              </Link>{" "}
+            </li>{" "}
+          </ul>{" "}
+        </nav>{" "}
+      </div>{" "}
     </header>
   );
 }

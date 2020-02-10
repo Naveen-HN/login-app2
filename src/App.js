@@ -15,13 +15,13 @@ function App() {
           path="/"
           render={props => (
             <React.Fragment>
-              <h1>This is the main Page</h1>
+              <h1> This is the main Page </h1>{" "}
             </React.Fragment>
           )}
-        />
-        <Route path="/register" component={Register} />
-        <Route path="/login" component={Login} />
-      </body>
+        />{" "}
+        <Route path="/register" component={Register} />{" "}
+        <Route path="/login" component={Login} />{" "}
+      </body>{" "}
     </Router>
   );
 }

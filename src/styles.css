@@ -45,3 +45,42 @@ span {
   font-weight: bolder;
   font-size: 45px;
 }
+
+.reg {
+  padding-top: 50px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+label {
+  margin-right: 20px;
+}
+
+#row {
+  display: inline;
+  padding-top: 20px;
+  min-width: max-content;
+}
+
+input {
+  width: auto;
+}
+
+button {
+  margin: 20px 20px 0 20px;
+  background-color: blanchedalmond;
+  size: auto;
+}
+
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+.sucessMsg {
+  color: #6B8E23;
+  margin-bottom: 10px;
+}
