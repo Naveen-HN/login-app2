@@ -25,10 +25,12 @@ class Register extends Component {
     event.preventDefault();
     if (this.validateForm()) {
       let fields = {};
-      fields["username"] = "";
-      fields["emailid"] = "";
-      fields["mobileno"] = "";
+      fields["firstName"] = "";
+      fields["lastName"] = "";
+      fields["phone"] = "";
+      fields["userName"] = "";
       fields["password"] = "";
+      fields["confirmPassword"] = "";
       this.setState({ fields: fields });
       alert("Form submitted");
     }

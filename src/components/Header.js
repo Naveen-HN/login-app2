@@ -16,7 +16,7 @@ function Header() {
       <div className="container">
         <div id="branding">
           <h1>
-            <span> W </span>elcome{" "}
+            <span>W</span>elcome{" "}
           </h1>{" "}
         </div>{" "}
         <nav>
